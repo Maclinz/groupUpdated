@@ -23,7 +23,7 @@ const PrimaryButtonStyled = styled(Link)`
     font-family: inherit;
     box-shadow: 0 8px 0px var(--blue-color-light);
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     align-self: center;
     margin-top: 1rem;
     cursor: pointer;
