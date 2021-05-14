@@ -292,6 +292,21 @@ const questions = [
         ]
 
     },
+    {
+        id: uuid(),
+        category: 'Plants & Animals',
+        type: 'multiple',
+        images: [],
+        difficulty: 'hard',
+        question: 'Example Question',
+        correct_answer:'97%',
+        incorrect_answers: [
+            '64%',
+            '12%',
+            '88%'
+        ]
+
+    },
     //New Questions Here...
 ]
 
