@@ -13,7 +13,7 @@ function MainContent() {
             </LeftContentStyled>
             <RightContentStyled>
                 <FixedCard title={'Quizes now or Read more about climate!'} />
-                <FixedCard title={'Follow Interesting accounts on social medial.'} image={'Test'} />
+                
             </RightContentStyled>
         </MainContentStyled>
     )

@@ -125,8 +125,8 @@ const questions = [
         correct_answer:'Energy supply ',
         incorrect_answers: [
             'Agriculture',
-            'TransportÂ ',
-            'ForestryÂ '
+            'Transport ',
+            'Forestry '
         ]
 
     },
@@ -139,7 +139,7 @@ const questions = [
         question: 'Which of the following changes in climate has NOT already occurred?',
         correct_answer:'A decrease in the sea ice around Antarctica',
         incorrect_answers: [
-            '0.74Â°C increase in average global temperature over the last century',
+            '0.74°C increase in average global temperature over the last century',
             '0.17m rise in sea level during the 20th century',
             'Fewer cold days and frosts, and more frequent heatwaves over the last 50 years'
         ]
@@ -166,12 +166,12 @@ const questions = [
         type: 'multiple',
         images: [],
         difficulty: 'medium',
-        question: 'If the global temperature rises by over 1.5Â°C what percentage of species will be at risk of extinction? ',
-        correct_answer:'15-20% â€“ at least one in six species',
+        question: 'If the global temperature rises by over 1.5°C what percentage of species will be at risk of extinction? ',
+        correct_answer:'15-20% – at least one in six species',
         incorrect_answers: [
-            '100% â€“ all species will be at risk',
-            '0% â€“ no species will be at risk',
-            '10-15% â€“ one in ten species will be at risk'
+            '100% – all species will be at risk',
+            '0% – no species will be at risk',
+            '10-15% – one in ten species will be at risk'
         ]
 
     },
@@ -215,7 +215,7 @@ const questions = [
         question: 'In which European city did 196 nations agree on a landmark global plan to curb climate change in December 2015?',
         correct_answer:'Paris ',
         incorrect_answers: [
-            'ViennaÂ ',
+            'Vienna ',
             'New Delhi ',
             'Athens'
         ]
@@ -292,22 +292,7 @@ const questions = [
         ]
 
     },
-    {
-        id: uuid(),
-        category: 'Plants & Animals',
-        type: 'multiple',
-        images: [],
-        difficulty: 'hard',
-        question: 'Example Question',
-        correct_answer:'97%',
-        incorrect_answers: [
-            '64%',
-            '12%',
-            '88%'
-        ]
-
-    },
-    //New Questions Here...
+    
 ]
 
 export default questions;

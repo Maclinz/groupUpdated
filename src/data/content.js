@@ -46,6 +46,22 @@ const content = [
                 it's colder outside, but the greenhouse stays pretty warm inside. 
                 That's because the glass walls of the greenhouse trap the Sun's heat.`
     },
+    {
+        id: uuid(),
+        category: 'New Content Item',
+        images: [greenhouse, greenhouse_effect],
+        cat_bg: 'var(--blue-color)',
+        link: 'https://climatekids.nasa.gov/climate-change-meaning/',
+        title: 'What Is the Greenhouse Effect?',
+        title2: 'How does the greenhouse effect work?',
+        text1: `The greenhouse effect is a process that occurs when gases in 
+                Earth's atmosphere trap the Sun's heat. This process makes Earth much warmer than it would be without an atmosphere. The greenhouse effect is one of the things that makes Earth a comfortable place to live.`,
+        text1_bullets: [],
+        text2: `As you might expect from the name, the greenhouse effect works … like a greenhouse! A greenhouse is a building with glass walls and a glass roof. Greenhouses are used to grow plants, such as tomatoes and tropical flowers.
+                A greenhouse stays warm inside, even during the winter. In the daytime, sunlight shines into the greenhouse and warms the plants and air inside. At nighttime, 
+                it's colder outside, but the greenhouse stays pretty warm inside. 
+                That's because the glass walls of the greenhouse trap the Sun's heat.`
+    },
 ]
 
 export default content;

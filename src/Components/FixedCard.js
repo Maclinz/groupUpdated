@@ -7,12 +7,12 @@ function FixedCard({title}) {
     return (
         <FixedCardStyled>
             <div className="inner-content">
-                <h2 className="black-p-heading">
+                <h2 >
                     {title}
                 </h2>
                 <div className="buttons">
                     <PrimaryButton text={'Quizes Now'} link={'/quizes/setup'} />
-                    <SecondaryButton text={'Read More!'} link={''} />
+                    <SecondaryButton text={'Read More!'} link={'https://www.jpl.nasa.gov/edu/teach/activity/whats-causing-sea-level-rise-land-ice-vs-sea-ice/'} />
                 </div>
             </div>
         </FixedCardStyled>
@@ -35,6 +35,9 @@ const FixedCardStyled = styled.div`
     }
     h2{
         margin: 0;
+        line-height: 2rem;
+        color: var(--para-heading-black-color);
+        font-size: 22px;
     }
     .inner-content{
         display: flex;
